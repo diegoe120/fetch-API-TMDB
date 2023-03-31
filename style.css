@@ -66,3 +66,11 @@ body {
 .paginacion button:hover {
     background: #137c32;
 }
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: red;
+}
