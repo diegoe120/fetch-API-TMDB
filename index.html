@@ -16,7 +16,7 @@
 
 <body>
     <div class="main">
-        <h1 class="title">MOVIES</h1>
+        <h1 class="title">MOVIES TIME</h1>
         <div class="contenedor" id="contenedor"></div>
         <video id="video" autoplay muted loop class="video">
             <source src="/img/fondo.mp4" type="video/mp4">
@@ -30,8 +30,11 @@
 
     </div>
     <button id="mute" class="buttonMute" type="button" data-state="mute">
-        <span class="material-symbols-outlined">
+        <span id="off" class="material-symbols-outlined">
             volume_off
+        </span>
+        <span id="on" class="material-symbols-outlined hide">
+            volume_up
         </span>
     </button>
     <script src=" app.js"></script>
