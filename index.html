@@ -16,7 +16,7 @@
 
 <body>
     <div class="main">
-        <h1>Peliculas</h1>
+        <h1 class="title">MOVIES</h1>
         <div class="contenedor" id="contenedor"></div>
         <video id="video" autoplay muted loop class="video">
             <source src="/img/fondo.mp4" type="video/mp4">
@@ -27,13 +27,13 @@
         <p id="numeroPagina" class="numeroPagina"></p>
         <button id="btnSiguiente">Siguiente</button>
 
-        <button id="mute" type="button" data-state="mute">
-            <span class="material-symbols-outlined">
-                volume_off
-            </span>
-        </button>
-    </div>
 
+    </div>
+    <button id="mute" class="buttonMute" type="button" data-state="mute">
+        <span class="material-symbols-outlined">
+            volume_off
+        </span>
+    </button>
     <script src=" app.js"></script>
 </body>
 

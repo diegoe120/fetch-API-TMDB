@@ -14,7 +14,7 @@ mute.addEventListener("click", (e) => {
 // Botones de paginas
 
 btnSiguiente.addEventListener('click', () => {
-  if (pagina < 1000) {
+  if (pagina < 500) {
     pagina += 1;
     cargarPeliculas();
   }
