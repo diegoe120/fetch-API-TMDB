@@ -20,7 +20,7 @@ h1 {
     text-align: center;
     font-size: 4rem;
     color: white;
-    /* background-color: #100a1f; */
+    background-color: #100a1f;
     position: fixed;
     top: 0;
     z-index: 10;
@@ -36,17 +36,17 @@ h1 {
 
 @keyframes reflejo {
     from {
-        transform: scaleY(0);
+        transform: translateY(-100px);
     }
 
     to {
-        transform: scaleY(1);
+        transform: translateY(0px);
     }
 }
 
 .contenedor {
     position: absolute;
-    top: 5rem;
+    top: 5.5rem;
     background: rgb(182, 225, 251);
     background: radial-gradient(circle, rgba(182, 225, 251, 1) 0%, rgba(182, 225, 251, 0) 100%);
     width: 90%;

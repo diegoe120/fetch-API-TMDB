@@ -15,13 +15,16 @@
 </head>
 
 <body>
-    <div class="main">
+    <main class="main">
+
         <h1 class="title">MOVIES TIME</h1>
+
+
         <div class="contenedor" id="contenedor"></div>
         <video id="video" autoplay muted loop class="video">
             <source src="/img/fondo.mp4" type="video/mp4">
         </video>
-    </div>
+    </main>
     <div class="paginacion">
         <button id="btnAnterior">Anterior</button>
         <p id="numeroPagina" class="numeroPagina"></p>
@@ -37,7 +40,9 @@
             volume_up
         </span>
     </button>
-    <script src=" app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="axios.js"></script>
 </body>
 
 </html>
