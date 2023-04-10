@@ -3,8 +3,23 @@ let sonidoPagina = "mute";
 const btnAnterior = document.getElementById('btnAnterior');
 const btnSiguiente = document.getElementById('btnSiguiente');
 const nPagina = document.querySelector('#numeroPagina');
-
+const imgVolumenOff = document.querySelector("#off");
+const imgVolumenOn = document.querySelector("#on");
 // Sonido-Mute
+
+function imagenMute() {
+    if (sonidoPagina === video.muted) {
+        imgVolumenOff.classList.remove(hiden);
+        imgVolumenOn.classList.add(hiden);
+    } else {
+        imgVolumenOn.classList.remove(hiden);
+        imgVolumenOff.classList.add(hiden);
+    }
+};
+document.querySelector('#mute').addEventListener("click"), (e) => {
+
+}
+
 
 mute.addEventListener("click", (e) => {
     video.muted = !video.muted;
